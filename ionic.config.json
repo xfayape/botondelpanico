@@ -1,0 +1,7 @@
+{
+  "name": "botondelpanico",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
