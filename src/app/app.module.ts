@@ -6,7 +6,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireAuth } from 'angularfire2/auth';
 import { firebaseConfig } from '../config';
-
+import { IonicStorageModule } from '@ionic/storage';
 
 
 import { MyApp } from './app.component';
@@ -28,7 +28,9 @@ import { AuthServiceProvider } from '../providers/auth-service/auth-service';
     IonicModule.forRoot(MyApp),
     AngularFireModule.initializeApp(firebaseConfig.fire),
     LoginPageModule,
-    RegistroPageModule
+    RegistroPageModule,
+    IonicStorageModule.forRoot()
+   
     
   ],
   bootstrap: [IonicApp],

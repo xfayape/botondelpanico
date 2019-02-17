@@ -93,6 +93,8 @@
         <variable name="CONTENT_AUTHORITY" value="$PACKAGE_NAME" />
         <variable name="ALWAYS_USAGE_DESCRIPTION" value="This app always requires location tracking" />
     </plugin>
+    <plugin name="cordova-sqlite-storage" spec="3.0.0" />
+    <plugin name="cordova-plugin-nativestorage" spec="2.3.2" />
     <engine name="android" spec="7.1.4" />
     <engine name="ios" spec="4.5.5" />
 </widget>
